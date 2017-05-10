@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inicio"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <LinearLayout
+            android:id="@+id/banco"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="5"
+            android:background="#00d8e3"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:onClick="goMap"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:src="@drawable/banco"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:text="@string/banco"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/hospital"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="5"
+            android:background="#fac600"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:onClick="goMap"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/hospital"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:text="@string/hospital"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <LinearLayout
+            android:id="@+id/hotel"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="5"
+            android:background="#fd4c56"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:onClick="goMap"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="8"
+                android:src="@drawable/hotel" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:text="@string/hotel"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/plaza"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="5"
+            android:background="#3cd8e4"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:onClick="goMap"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:src="@drawable/plaza"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="8"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:text="@string/plaza"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

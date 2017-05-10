@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AcheMapas</string>
+
+    <string name="banco">Banco</string>
+    <string name="hospital">Hospital</string>
+    <string name="hotel">Hotel</string>
+    <string name="plaza">Plaza</string>
+    <string name="inicio">Localización de los lugares más concurridos de la Ciudad de Huaraz - Perú</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
